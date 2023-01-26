@@ -18,3 +18,21 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+.body{
+    text-align: center;
+    margin: 0%;
+}
+
+.top-container{
+    background-image: url(Images/1045-1920x650-grayscale.jpg);
+}
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto 0 auto;
+    color: white;
+}
+
+
+
