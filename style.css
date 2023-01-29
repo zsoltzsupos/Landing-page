@@ -24,7 +24,7 @@
 body{
     text-align: center;
     margin: 0%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fredoka One', cursive;
 }
 
 .white-p{
@@ -38,8 +38,7 @@ body{
 
 .grey-p{
   color: rgb(105, 105, 105);
-  padding: 0 2rem 2rem 2rem;
-  margin: 0 auto 0rem auto;
+  margin: 0 auto 2rem auto;
 }
 
 .copy-p{
@@ -61,20 +60,20 @@ body{
 
 .top-content{
   background-color: #ddd;
-  padding-top: 1.5rem;
+  padding: 2rem 3rem;
 }
 
 .middle-container{
-  width: 100%;
   margin: 0 auto 0 auto;
+  max-width: 1200px;
 }
 
 .mid-content{
-  max-width: 1200px;
   box-sizing: border-box;
   border: solid #666;
-  border-width: 1.5rem 1rem;
+  border-width: 2rem;
   background-color: rgb(243, 243, 243);
+  transition: 1s;  
 }
 
 .bottom-container{
@@ -89,11 +88,13 @@ body{
 .contact{
   background-color: #0d6efd;
   padding: 2rem 1rem 2rem 1rem;
+  width: auto;
 }
 
 .location{
   background-color: #fd7e14;
   padding: 2rem 1rem 2rem 1rem;
+  width: auto;
 }
 
 .copyright{
@@ -145,4 +146,8 @@ a{
 
 a:hover{
   color: #000000;
+}
+
+.mid-content:hover{
+  transform: scale(1.1);
 }
